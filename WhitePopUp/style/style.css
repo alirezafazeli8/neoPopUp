@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #dad9d7;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+body h1 {
+  position: relative;
+  top: 1.5em;
+}
+body .popChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30em;
+}
+body .popChild .childs {
+  position: relative;
+  top: 5em;
+  padding: 0.5em;
+  padding: 20px;
+}
+body .popChild .childs button {
+  font-family: "Dancing Script", cursive;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #c4c3c2, #e9e8e6);
+  -webkit-box-shadow: 20px 20px 60px #b9b8b7, -20px -20px 60px #fbfaf7;
+          box-shadow: 20px 20px 60px #b9b8b7, -20px -20px 60px #fbfaf7;
+  font-size: 20px;
+}
+body #message {
+  position: relative;
+  top: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30.5em;
+  height: 10em;
+  text-align: center;
+  border-radius: 50px;
+  background: #dad9d7;
+  -webkit-box-shadow: -20px 20px 60px #b9b8b7, 20px -20px 60px #fbfaf7;
+          box-shadow: -20px 20px 60px #b9b8b7, 20px -20px 60px #fbfaf7;
+}
+body #message p {
+  font-size: 25px;
+}
+
+.hidden {
+  display: none !important;
+}
